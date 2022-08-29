@@ -1,0 +1,27 @@
+.moon {
+    transition: all .4s;
+    background-color: #222;
+    color: #fff;
+}
+.moon #secao-um p {
+    color: #fff;
+}
+.moon #area-dois p{
+    color: #fff;
+}
+.moon #area-botoes #botoes button{
+    background-color: #fff;
+    color: #222;
+}
+.moon footer {
+    transition: all .4s;
+    background-color: #000;
+}
+.moon footer #logo-footer #img-um{
+    transition: all .4s;
+    display: none;
+}
+.moon footer #logo-footer #img-dois {
+    transition: all .4s;
+    display: block;
+}

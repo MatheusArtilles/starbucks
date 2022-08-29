@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap css-->
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/c600d5d8fe.js" crossorigin="anonymous"></script>
+    <!--css do projeto-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/moon.css">
+    <link rel="shortcut icon" href="img/starbucks-logo.png" type="image/x-icon">
+    <title>Starbucks</title>
+</head>
+<body id="bd">
+    <header class="cabecalho">
+        <div id="area-logo">
+            <img src="img/starbucks-logo.png" alt="" width="100px">
+        </div>
+
+        <nav id="nav">
+            <button id="btn-mobile" aria-expanded="false">
+                <i class="fa-solid fa-bars fa-2x"></i> 
+            </button>
+            <ul id="menu">
+                <button id="fecha" onclick="fechaMenu()">
+                    <i class="fa-solid fa-xmark fa-2x"></i>
+                </button>
+                <li><a href="">Peça um frapuccino</a></li>
+                <li><a href="">Melhores Sabores</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Planos</a></li>
+                <li><a href="">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="area-botoes">
+        <div id="botoes">
+            <button  onclick="modeDark()">
+                <i id="dark" class="fa-solid fa-moon fa-2x"></i>
+            </button>
+
+            <button  onclick="modeLight()">
+                <i id="light" class="fa-solid fa-sun fa-2x"></i>
+            </button>
+        </div>
+    </div>
+    <section id="secao-um">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Novo frapuccino</h1>
+                    <p>
+                        Uma verdadeira explosão de sabores para os eternos apaixonados
+                        por um verdadeiro Starbucks legítmo, venha até um dos nossos pontos
+                        de venda e não perca essa oferta de 30% de desconto na primeira compra
+                        de um delicioso frapuccino de chocolate com uma cobertura levíssima
+                        de chocolate.
+                    </p>
+
+                    <a href="" class="btn btn-lg btn-custom btn-acessar">Ir para o site</a>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="c">
+            <img src="img/coffe-removebg-preview.png" alt="" class="img-fluid">
+        </div>
+    </section>
+
+    
+    <section id="area-dois">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Inscrever-se</h2>
+                    <h3>Na Newslatter</h3>
+                    <p>
+                        Lorem ipsum dolor sit 
+                        amet consectetur adipisicing elit. 
+                        Eligendi nulla neque, tempore repellat 
+                        cum perspiciatis laborum, corrupti fugiat 
+                        magni pariatur iure beatae dolore modi nam.
+                         Ea pariatur impedit odit molestiae.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div id="inputs">
+                        <input type="text" placeholder="Digite seu Nome">
+                        <input type="text" placeholder="Digite seu Email">
+                        <button id="enviar">Enviar</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="logo-footer">
+                        <img id="img-um" src="img/starbucks.svg" alt="" width="80px">
+                        <img id="img-dois" src="img/copia.svg" alt="" width="80px">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="navbar-nav">
+                        <h4>Company</h4>
+                        <li><a href="">Coffes</a></li>
+                        <li><a href="">Lojas</a></li>
+                        <li><a href="">Imprensa</a></li>
+                        <li><a href="">Novidades</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="navbar-nav">
+                        <h4>Corporation</h4>
+                        <li><a href="">Afiliar-se</a></li>
+                        <li><a href="">Representar</a></li>
+                        <li><a href="">Onde estamos</a></li>
+                        <li><a href="">Mais vendidos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="redes">
+                        <li>
+                          <a href="">
+                            <i class="fab fa-instagram fa-3x"></i>
+                          </a>
+                        </li>
+          
+                        <li>
+                          <a href="">
+                            <i class="fab fa-twitter fa-3x"></i>
+                          </a>
+                        </li>
+          
+                        <li>
+                          <a href="">
+                            <i class="fab fa-facebook fa-3x"></i>
+                          </a>
+                        </li>
+                      </ul>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <!--script do projeto-->
+    <script src="js/script.js"></script>
+</body>
+</html>
