@@ -241,3 +241,10 @@ footer ul.redes li a:hover {
         cursor: pointer;
     }
 }
+
+@media(max-width: 750px){
+    
+    #secao-um #c {
+        bottom: -500px;
+    }
+}
